@@ -13,3 +13,5 @@ jobs:
       run: gcc main.c
     - name: test run
       run: ./a.out
+    - name: upload
+      run: actions/upload-artifact@v1
