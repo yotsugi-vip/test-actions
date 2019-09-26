@@ -14,4 +14,4 @@ jobs:
     - name: test run
       run: ./a.out
     - name: upload
-      run: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v1
